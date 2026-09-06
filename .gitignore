@@ -1,0 +1,8 @@
+/.release/
+/_site/
+/release-staging/
+/dist-release/
+/subsdk4
+/main.npdm
+/*.zip
+
