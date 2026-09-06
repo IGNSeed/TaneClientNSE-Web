@@ -53,4 +53,3 @@ The generated files are placed under `.release/v1.0.0/`. Before publishing, run 
 9. Re-download and verify the manifest, asset URLs, sizes, hashes, and website download link.
 
 Explicit permission is required for every Release artifact upload. Permission for one version must never be reused for a later version. Development binaries, build directories, ELF/map/object files, logs, reverse-engineering data, and any unapproved assets must never be published.
-

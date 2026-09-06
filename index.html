@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The official download page for TaneClient on Minecraft: Nintendo Switch Edition.">
+    <meta name="theme-color" content="#070707">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TaneClient — Nintendo Switch Edition">
+    <meta property="og:description" content="Download and install the latest stable TaneClient release for Minecraft: Nintendo Switch Edition.">
+    <meta property="og:image" content="assets/TaneClient_logo.png">
+    <title>TaneClient — Nintendo Switch Edition</title>
+    <link rel="icon" type="image/png" href="assets/TaneClient_logo.png">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/site-data.js" defer></script>
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="TaneClient home">
+          <img src="assets/TaneClient_logo.png" width="34" height="34" alt="">
+          <span>TaneClient</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#download">Download</a>
+          <a href="#installation">Installation</a>
+          <a data-release-href="repository" href="https://github.com/IGNSeed/TaneClientNSE-Web" rel="noreferrer">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="shell hero-layout">
+          <div class="hero-copy">
+            <div class="hero-mark reveal">
+              <img src="assets/TaneClient_logo.png" width="128" height="128" alt="TaneClient logo">
+            </div>
+            <p class="eyebrow reveal">TANECLIENT / STABLE <span data-release-version="plain">—</span></p>
+            <h1 class="reveal" id="hero-title">TaneClient</h1>
+            <p class="edition reveal">Minecraft: Nintendo Switch Edition</p>
+            <p class="hero-summary reveal">A clean and lightweight client built for a focused Nintendo Switch Edition experience.</p>
+            <div class="hero-actions reveal" id="download">
+              <a class="button button-primary" data-release-href="download" href="https://github.com/IGNSeed/TaneClientNSE-Web/releases/latest">
+                <span>Download <span data-release-version="tag">latest</span></span>
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                  <path d="M10 2v10m0 0 4-4m-4 4L6 8M3 15v2h14v-2"></path>
+                </svg>
+              </a>
+              <a class="button button-secondary" data-release-href="release" href="https://github.com/IGNSeed/TaneClientNSE-Web/releases/latest">View release</a>
+            </div>
+            <p class="release-status reveal"><span aria-hidden="true"></span> Latest stable release</p>
+          </div>
+
+          <aside class="release-panel reveal" aria-labelledby="release-heading">
+            <div class="panel-heading">
+              <span class="section-index">01</span>
+              <h2 id="release-heading">Release information</h2>
+            </div>
+            <dl class="release-facts">
+              <div>
+                <dt>Version</dt>
+                <dd data-release-version="plain">—</dd>
+              </div>
+              <div>
+                <dt>Channel</dt>
+                <dd>Stable</dd>
+              </div>
+              <div>
+                <dt>Platform</dt>
+                <dd>Nintendo Switch</dd>
+              </div>
+              <div>
+                <dt>Title</dt>
+                <dd>Minecraft: Nintendo Switch Edition</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="installation" aria-labelledby="installation-heading">
+        <div class="shell section-layout">
+          <div class="section-intro reveal">
+            <span class="section-index">02</span>
+            <h2 id="installation-heading">Installation</h2>
+            <p>The package is arranged for direct extraction to the root of your SD card.</p>
+          </div>
+          <ol class="install-steps">
+            <li class="reveal">
+              <span class="step-number">01</span>
+              <div>
+                <h3>Download</h3>
+                <p>Download <code data-release-filename>the latest release ZIP</code>.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="step-number">02</span>
+              <div>
+                <h3>Extract</h3>
+                <p>Back up existing files if needed, then extract the ZIP to the root of your Nintendo Switch SD card.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="step-number">03</span>
+              <div>
+                <h3>Confirm</h3>
+                <p>Confirm that both files are under:</p>
+                <code class="path">atmosphere/contents/01006BD001E06000/exefs/</code>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="step-number">04</span>
+              <div>
+                <h3>Launch</h3>
+                <p>Start Minecraft: Nintendo Switch Edition through Atmosphère.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section-divided" aria-label="Requirements and updates">
+        <div class="shell details-grid">
+          <div class="detail-block reveal">
+            <span class="section-index">03</span>
+            <h2>Requirements</h2>
+            <ul class="requirements-list">
+              <li>Nintendo Switch capable of running Atmosphère</li>
+              <li>Minecraft: Nintendo Switch Edition</li>
+              <li>Access to the Nintendo Switch SD card</li>
+            </ul>
+            <p class="detail-note">Supported Title ID <code>01006BD001E06000</code></p>
+          </div>
+
+          <div class="detail-block reveal" id="updates">
+            <span class="section-index">04</span>
+            <h2>Stable updates</h2>
+            <p>TaneClient checks for stable updates when Minecraft starts. When an update is available, it is downloaded and verified automatically.</p>
+            <p>Minecraft closes after installation so the updated client can be loaded the next time you launch the game.</p>
+            <p class="detail-note">An internet connection is only required to check for updates.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <div>
+          <strong>TaneClient</strong>
+          <span>Minecraft: Nintendo Switch Edition</span>
+        </div>
+        <p>Unofficial community project. Not affiliated with Mojang, Microsoft, or Nintendo.</p>
+      </div>
+    </footer>
+  </body>
+</html>
