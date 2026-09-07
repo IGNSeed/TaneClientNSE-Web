@@ -5,8 +5,8 @@
   "assets": {
     "subsdk4": {
       "url": "https://github.com/IGNSeed/TaneClientNSE-Web/releases/download/v1.0.4/subsdk4",
-      "sha256": "79bb5f58dc2e5fb1e21a503157c283bf1724db0581e40e1ba07d2161174a4a35",
-      "size": 840757
+      "sha256": "ac7d1830672bd1721df72612e05d787132198fbd65ff6acf72019de4311ad7fe",
+      "size": 841105
     },
     "main_npdm": {
       "url": "https://github.com/IGNSeed/TaneClientNSE-Web/releases/download/v1.0.4/main.npdm",
