@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "version": "1.1.1",
+  "version": "1.1.2",
   "channel": "stable",
   "assets": {
     "subsdk4": {
-      "url": "https://github.com/IGNSeed/TaneClientNSE-Web/releases/download/v1.1.1/subsdk4",
-      "sha256": "4efff447a0dd155871ceb4aef4dc629eb18797ca29f1e3aab140f9072276df56",
-      "size": 846396
+      "url": "https://github.com/IGNSeed/TaneClientNSE-Web/releases/download/v1.1.2/subsdk4",
+      "sha256": "b115a0b58ba10b47c52af2aa31e636099b55298b3fd44842ee9bd136f95a0362",
+      "size": 854814
     },
     "main_npdm": {
-      "url": "https://github.com/IGNSeed/TaneClientNSE-Web/releases/download/v1.1.1/main.npdm",
+      "url": "https://github.com/IGNSeed/TaneClientNSE-Web/releases/download/v1.1.2/main.npdm",
       "sha256": "6e5c73b967c32b0cabd5201346739aff79cb5e24bbafc1f1456a04f5f5a22b67",
       "size": 1516
     }
